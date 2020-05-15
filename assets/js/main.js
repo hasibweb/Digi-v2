@@ -58,7 +58,7 @@
         items: 5,
         margin: 20,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {
@@ -87,8 +87,8 @@
         centerPadding: '0',
         slidesToShow: 5,
         rows: 2,
-        prevArrow: '<button class="prev_arrow"><i class="fa fa-arrow-circle-left"></i></button>',
-        nextArrow: '<button class="next_arrow"><i class="fa fa-arrow-circle-right"></i></button>',
+        prevArrow: '<button class="prev_arrow"><i class="ion-ios-arrow-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-ios-arrow-right"></i></button>',
         responsive: [
             {
                 breakpoint: 576,
@@ -127,8 +127,8 @@
         centerPadding: '0',
         slidesToShow: 4,
         rows: 2,
-        prevArrow: '<button class="prev_arrow"><i class="fa fa-arrow-circle-left"></i></button>',
-        nextArrow: '<button class="next_arrow"><i class="fa fa-arrow-circle-right"></i></button>',
+        prevArrow: '<button class="prev_arrow"><i class="ion-ios-arrow-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-ios-arrow-right"></i></button>',
         responsive: [
             {
                 breakpoint: 576,
@@ -173,7 +173,7 @@
         items: 5,
         margin: 20,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {
@@ -242,7 +242,7 @@
         items: 1,
         margin: 20,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {
@@ -301,8 +301,8 @@
         centerPadding: '0',
         slidesToShow: 3,
         rows: 2,
-        prevArrow: '<button class="prev_arrow"><i class="fa fa-arrow-circle-left"></i></button>',
-        nextArrow: '<button class="next_arrow"><i class="fa fa-arrow-circle-right"></i></button>',
+        prevArrow: '<button class="prev_arrow"><i class="ion-ios-arrow-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-ios-arrow-right"></i></button>',
         responsive: [
             {
                 breakpoint: 480,
@@ -334,8 +334,8 @@
         centerPadding: '0',
         slidesToShow: 1,
         rows: 3,
-        prevArrow: '<button class="prev_arrow"><i class="fa fa-arrow-circle-left"></i></button>',
-        nextArrow: '<button class="next_arrow"><i class="fa fa-arrow-circle-right"></i></button>',
+        prevArrow: '<button class="prev_arrow"><i class="ion-ios-arrow-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-ios-arrow-right"></i></button>',
         responsive: [
             {
                 breakpoint: 480,
@@ -383,7 +383,7 @@
         autoplayTimeout: 8000,
         items: 4,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {
@@ -410,7 +410,7 @@
         autoplayTimeout: 8000,
         items: 1,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {
@@ -434,7 +434,7 @@
         autoplay: false,
         autoplayTimeout: 8000,
         items: 1,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
     });
 
     /*---brand container activation---*/
@@ -448,7 +448,7 @@
         autoplayTimeout: 8000,
         items: 5,
         dots: false,
-        navText: ['<i class="fa fa-arrow-circle-left"></i>', '<i class="fa fa-arrow-circle-right"></i>'],
+        navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
         responsiveClass: true,
         responsive: {
             0: {

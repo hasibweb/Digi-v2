@@ -1773,10 +1773,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .categories_title::before {
-  content: "\f0c9";
+  content: "\f394";
   color: #fff;
   display: inline-block;
-  font-family: FontAwesome;
+  font-family: Ionicons;
   position: absolute;
   font-size: 22px;
   line-height: 0px;
@@ -10107,7 +10107,5 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-
 /* Customize css */
 @import './custom.css'
