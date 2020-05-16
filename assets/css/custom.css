@@ -10,10 +10,11 @@
 }
 
 /* Search Suggestion */
-#header_search_box {
+.search_box {
     position: relative;
+    z-index: 99;
 }
-#search_suggestion  {
+.search_suggestion  {
     position: absolute;
     width: 100%;
     background: #fff;
@@ -21,12 +22,12 @@
     top: calc(100% + 10px);
     left: 0;
 }
-#search_suggestion ul {
+.search_suggestion ul {
     max-height: 300px;
     overflow: auto;
  }
 
-#search_suggestion ul li {
+.search_suggestion ul li {
     cursor: pointer;
     font-weight: 400;
     line-height: 40px;
@@ -39,7 +40,7 @@
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
-#search_suggestion ul li:hover { 
+.search_suggestion ul li:hover { 
     background: #f6f6f6;
 }
 /* Responsive */
