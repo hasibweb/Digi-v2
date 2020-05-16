@@ -198,37 +198,37 @@
 
 
     /*---product deals column4 activation---*/
-    $('.product_deals_column4').on('changed.owl.carousel initialized.owl.carousel', function (event) {
-        $(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
-    }).owlCarousel({
-        autoplay: true,
-        loop: true,
-        nav: true,
-        autoplay: false,
-        autoplayTimeout: 8000,
-        dots: false,
-        navText: ['Prev', 'Next'],
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            576: {
-                items: 2,
-            },
-            768: {
-                items: 3,
-            },
-            992: {
-                items: 3,
-            },
-            1200: {
-                items: 4,
-            },
+    // $('.product_deals_column4').on('changed.owl.carousel initialized.owl.carousel', function (event) {
+    //     $(event.target).find('.owl-item').removeClass('last').eq(event.item.index + event.page.size - 1).addClass('last')
+    // }).owlCarousel({
+    //     autoplay: true,
+    //     loop: true,
+    //     nav: true,
+    //     autoplay: false,
+    //     autoplayTimeout: 8000,
+    //     dots: false,
+    //     navText: ['Prev', 'Next'],
+    //     responsiveClass: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //         },
+    //         576: {
+    //             items: 2,
+    //         },
+    //         768: {
+    //             items: 3,
+    //         },
+    //         992: {
+    //             items: 3,
+    //         },
+    //         1200: {
+    //             items: 4,
+    //         },
 
 
-        }
-    });
+    //     }
+    // });
 
     /*---product column1 activation---*/
     $('.product_column1').on('changed.owl.carousel initialized.owl.carousel', function (event) {
