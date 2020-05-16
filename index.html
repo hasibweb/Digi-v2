@@ -212,9 +212,18 @@
                         <option value="16">Electronic</option>
                       </select>
                     </div>
-                    <div class="search_box">
-                      <input placeholder="Search product..." type="text" />
+                    <div id="header_search_box" class="search_box">
+                      <input id="header_search_input" placeholder="Search product..." type="text" autocomplete="off" />
                       <button type="submit">Search</button>
+                      <div id="search_suggestion" class="d-none">
+                        <ul>
+                          <li>Headphone & Speaker</li>
+                          <li>Vegetables</li>
+                          <li>Camera & Video</li>
+                          <li>Butters & Eggs</li>
+                          <li>Accessories & More</li>
+                        </ul>
+                      </div>
                     </div>
                   </form>
                 </div>

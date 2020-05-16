@@ -1,3 +1,4 @@
+/* Preloader */
 .se-pre-con {
     position: fixed;
     left: 0px;
@@ -8,7 +9,39 @@
     background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
 }
 
+/* Search Suggestion */
+#header_search_box {
+    position: relative;
+}
+#search_suggestion  {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    top: calc(100% + 10px);
+    left: 0;
+}
+#search_suggestion ul {
+    max-height: 300px;
+    overflow: auto;
+ }
 
+#search_suggestion ul li {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#search_suggestion ul li:hover { 
+    background: #f6f6f6;
+}
 /* Responsive */
 @media (max-width: 576px) {
     .add_to_cart {
