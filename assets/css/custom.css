@@ -12,7 +12,7 @@
 /* Search Suggestion */
 .search_box {
     position: relative;
-    z-index: 99;
+    z-index: 9;
 }
 .search_suggestion  {
     position: absolute;
