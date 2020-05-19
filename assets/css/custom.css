@@ -1,3 +1,9 @@
+/* Reste */
+p {
+    margin-bottom: 6px;
+}
+
+
 /* Preloader */
 .se-pre-con {
     position: fixed;
@@ -43,6 +49,13 @@
 .search_suggestion ul li:hover { 
     background: #f6f6f6;
 }
+
+/* Products */
+h3.product_name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 /* Responsive */
 @media (max-width: 576px) {
     .add_to_cart {
