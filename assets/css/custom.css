@@ -1,3 +1,5 @@
+/* TEsting CDN */
+
 /* Reste */
 p {
     margin-bottom: 6px;
@@ -62,6 +64,9 @@ h3.product_name {
 }
 .single_product:hover {
     box-shadow: 0px 0px 7px #dedede;
+}
+figcaption.product_content p {
+    margin-bottom: 0;
 }
 /* Responsive */
 @media (max-width: 576px) {
