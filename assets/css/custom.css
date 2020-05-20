@@ -56,6 +56,9 @@ h3.product_name {
     margin-bottom: 10px;
 }
 
+.single_product {
+    border-color: #ebebeb;
+}
 /* Responsive */
 @media (max-width: 576px) {
     .add_to_cart {
