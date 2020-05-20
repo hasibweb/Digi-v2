@@ -58,6 +58,10 @@ h3.product_name {
 
 .single_product {
     border-color: #ebebeb;
+    margin-bottom: 20px;
+}
+.single_product:hover {
+    box-shadow: 0px 0px 7px #dedede;
 }
 /* Responsive */
 @media (max-width: 576px) {
