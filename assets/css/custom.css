@@ -1,6 +1,6 @@
 /* TEsting CDN */
 
-/* Reste */
+/* Reset css */
 p {
     margin-bottom: 6px;
 }
@@ -53,6 +53,15 @@ p {
 }
 
 /* Products */
+.product_thumb .primary_img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.product_thumb .primary_img {
+    height: 200px;
+    display: block;
+    text-align: center;
+}
 h3.product_name {
     font-size: 20px;
     margin-bottom: 10px;
