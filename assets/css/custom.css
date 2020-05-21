@@ -61,6 +61,9 @@ p {
     height: 200px;
     display: block;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h3.product_name {
     font-size: 20px;
