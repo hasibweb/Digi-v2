@@ -54,7 +54,7 @@ p {
 
 /* Products */
 .product_thumb a.primary_img {
-    height: 200px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ figcaption.product_content p {
         bottom: -55px !important;
     }
     .product_thumb a.primary_img {
-        height: 135px;
+        height: 100px;
     }
 }
 
