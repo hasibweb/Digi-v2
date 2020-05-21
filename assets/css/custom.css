@@ -83,4 +83,8 @@ figcaption.product_content p {
     .add_to_cart {
         bottom: -55px !important;
     }
+    .product_thumb a.primary_img {
+        height: 135px;
+    }
 }
+
