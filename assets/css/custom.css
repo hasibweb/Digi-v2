@@ -79,7 +79,12 @@ figcaption.product_content p {
     margin-bottom: 0;
 }
 /* Responsive */
+
 @media (max-width: 576px) {
+    div[class^='col-'] {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .add_to_cart {
         bottom: -55px !important;
     }
